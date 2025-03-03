@@ -6,7 +6,7 @@ import {motion} from 'framer-motion'
 const Projects = () => {
   return (
    <section className='pt-20' id='projects'>
-    <motion.h2 initial={{ opacity:0, y:-30}} whileInView={{opacity:1, y:0}} transition={{duration:0.8}}  className='mb-8 text-center text-3xl lg:text-4xl'>PROJECTS</motion.h2>
+    <motion.h2 initial={{ opacity:0, y:-30}} whileInView={{opacity:1, y:0}} transition={{duration:0.8}}  className='mb-8 text-center text-3xl lg:text-4xl font-semibold'>PROJECTS</motion.h2>
     <div className='grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-3'>
         {PROJECTS.map((projects)=>(
             <motion.div initial={{ opacity:0, scale:0.9}} whileInView={{opacity:1, scale:1}} whileHover={{scale:1.05}} transition={{duration:0.5}} className='group relative overflow-hidden rounded-3xl'>
