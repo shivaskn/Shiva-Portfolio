@@ -84,11 +84,11 @@ export const PROJECTS = [
   },
   {
     id: 5,
-    name: "Netflix Landing Page",
+    name: "Full Stack E-Commerce",
     description:
       "This project showcases a visually appealing replica of the Netflix landing page, designed using HTML and CSS. The page features a sleek and modern layout, capturing the essence of Netflix's brand identity with its dark theme, bold typography, and vibrant call-to-action buttons.",
     image: projectImage5,
-    githubLink: "https://github.com/shivaskn/Netflix-landing-page",
+    githubLink: "https://lazadaworld.netlify.app/",
   },
   {
     id: 6,
